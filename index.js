@@ -42,7 +42,7 @@ const runningScore = document.querySelector(".runningScore");
 const finalScore = document.querySelector(".finalResult");
 const container = document.querySelector(".container");
 const restart = document.createElement("button");
-restart.textContent = "Start Over?";
+restart.textContent = "Start Over ?";
 
 let humanScore = 0;
 let computerScore = 0;
