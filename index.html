@@ -3,15 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <title>"Rock, Paper, Scissor"</title>
-    <script src="./index.js"></script>
+    <script src="./index.js" defer></script>
   </head>
   <body>
-    <div>
+    <div class="container">
       <h1>Rock, Paper, and Scissors time!</h1>
-      <p>
-        This is console based game so please open up your browsers devtools to
-        play.
-      </p>
+      <div id="buttons">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+      </div>
+
+      <div class="output">
+        <p class="runningScore"></p>
+        <p class="finalResult"></p>
+      </div>
     </div>
   </body>
 </html>
